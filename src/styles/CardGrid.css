@@ -1,0 +1,30 @@
+.view-buttons {
+  margin-bottom: 16px;
+}
+
+.card-container.group {
+  margin-top: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-container.list {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-container.tiles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .card-container.tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container.tiles {
+    grid-template-columns: 1fr;
+  }
+}

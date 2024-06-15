@@ -1,0 +1,141 @@
+.functionality-details-table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.search-box input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.add-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pagination-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.pagination-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.pagination-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.page-info {
+    margin-right: 20px;
+}
+
+.page-size-selector {
+    padding: 10px;
+}
+
+.table-container {
+    margin-bottom: 40px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.button-group {
+    display: flex;
+}
+
+.add-button+.add-button {
+    margin-left: 10px;
+}
+
+.action-buttons {
+    display: flex;
+}
+
+.approve-button,
+.decline-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.decline-button {
+    background-color: #dc3545;
+    margin-left: 5px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    overflow: auto;
+}
+
+.image-box {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    text-align: center;
+}

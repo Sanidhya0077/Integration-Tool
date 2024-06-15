@@ -1,0 +1,66 @@
+/* Header Component */
+
+#header {
+  height: 40% !important;
+  /* position: sticky; */
+  background-color: #0e1734;
+
+  opacity: 1;
+}
+
+.title {
+  color: #fff !important;
+}
+
+#header .nav-link {
+  color: #fff;
+}
+
+/* Header Component */
+
+/* Login */
+.forgot-password-link {
+  float: left;
+}
+
+.registration-link {
+  float: right;
+}
+
+.forgot-password-and-registration-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  /* text-align: center; */
+  border-top: 1px solid #ccc;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  z-index: 1000;
+}
+
+.blue-slide {
+  background-color: blue;
+  color: white;
+  /* Optional: Set text color to contrast with blue background */
+}
+
+.carousel-caption {
+  text-align: left !important;
+}
+
+.custom-save-btn {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  background-color: #0e1734 !important;
+}
+
+.card-container {
+  display: flexbox;
+  margin-bottom: 10%;
+}
